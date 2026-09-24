@@ -1,0 +1,18 @@
+# Mode A statistical evaluation over binary inputs (baseline cells 2-3).
+# Run: python scripts/run_binary_experiments.py
+kind: binary_experiments
+
+n_input: 8
+
+# Shipped synthetic samples. To evaluate the original paper datasets, place
+# them under data/external/ (see data/README.md) and add their paths here.
+# [BUTUH INPUT PENULIS] original paper binaries are not redistributed.
+inputs:
+  - data/sample/sample_text.txt
+  - data/sample/sample_binary.bin
+  - data/sample/sample_image.png
+
+password_env: AGHC_PASSWORD
+password: aghc-s128-demo
+
+output_dir: results

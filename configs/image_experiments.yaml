@@ -1,0 +1,19 @@
+# Mode A statistical evaluation over image files, plus image-specific
+# adjacent-pixel correlation figures (explicit extension; the baseline
+# notebook only measured stream-adjacent bytes).
+# Run: python scripts/run_image_experiments.py
+kind: image_experiments
+
+n_input: 8
+
+# Synthetic sample image only. Original paper images (e.g. USC-SIPI, MRI)
+# are NOT redistributed — see data/README.md and
+# configs/paper_results_mapping.md for how to register them.
+# [BUTUH INPUT PENULIS] original paper images are not redistributed.
+inputs:
+  - data/sample/sample_image.png
+
+password_env: AGHC_PASSWORD
+password: aghc-s128-demo
+
+output_dir: results

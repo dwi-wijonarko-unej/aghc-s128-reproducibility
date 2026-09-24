@@ -1,0 +1,18 @@
+# Quick reproduction demo — single sample, full pipeline, no Colab.
+# Run: python scripts/run_quick_demo.py
+#      (or: aghc-s128 reproduce --config configs/quick_demo.yaml)
+kind: quick_demo
+
+# User parameter n; effective matrix size is N = 2 x n (NOT 2**n).
+n_input: 8
+
+# Input sample (shipped with the repository, synthetic, no license issues).
+input: data/sample/sample_text.txt
+
+# Password resolution order:
+#   1. environment variable named by `password_env` (recommended)
+#   2. inline `password` demo fallback (public test vector, NOT a secret)
+password_env: AGHC_PASSWORD
+password: aghc-s128-demo
+
+output_dir: results/example_outputs

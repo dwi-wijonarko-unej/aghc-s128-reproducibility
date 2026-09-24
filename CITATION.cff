@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "AGHC-S128 Reproducibility Package: Adaptive Graph Hill Cipher with Shift-128 Residual Processing"
+message: >-
+  If this reproducibility package or the baseline algorithm contributed to
+  your work, please cite both the original paper and this software artifact.
+type: software
+authors:
+  # [BUTUH INPUT PENULIS] Replace placeholder authors with the real author
+  # list (given/family names, ORCID, affiliation) before the public release.
+  - family-names: "Author"
+    given-names: "AGHC-S128 Research Team"
+    affiliation: "Placeholder"
+repository-code: "https://github.com/PLACEHOLDER/aghc-s128-reproducibility"
+abstract: >-
+  Reproducibility implementation of the AGHC-S128 research cipher
+  (Adaptive Graph Hill Cipher with Shift-128 Residual Processing).
+  Provides the baseline-faithful core algorithm, statistical evaluation
+  metrics, experiment pipelines, CLI, regression tests against the original
+  Colab notebook implementation, and documentation of known limitations.
+  This is a research prototype; statistical evaluations do not constitute a
+  cryptographic security proof (see docs/SECURITY_SCOPE.md).
+keywords:
+  - reproducibility
+  - research software
+  - cipher
+  - hill-cipher
+  - chaos
+  - statistical-evaluation
+license: MIT
+version: 1.0.0
+date-released: "2026-09-24"

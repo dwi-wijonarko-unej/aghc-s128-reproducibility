@@ -1,0 +1,84 @@
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.
+AGHC-S128 reproducibility sample
+Adaptive Graph Hill Cipher with Shift-128 Residual Processing
+This synthetic text file exists so that the quick demo and the test
+suite can run without external datasets. It contains no sensitive
+data. Byte distribution is intentionally text-like (limited alphabet)
+so entropy comparisons between original and encrypted are meaningful.
+The five boxing wizards jump quickly. 0123456789 repeat.

@@ -1,0 +1,16 @@
+# Mode B key sensitivity: one plaintext encrypted under two passwords.
+# Run: python scripts/run_key_sensitivity.py
+kind: key_sensitivity
+
+n_input: 8
+
+input: data/sample/sample_text.txt
+
+# Two distinct passwords. Environment variables win over inline demo values
+# (the inline values are public test vectors, NOT secrets).
+password_a_env: AGHC_PASSWORD_A
+password_a: aghc-s128-demo-key-A
+password_b_env: AGHC_PASSWORD_B
+password_b: aghc-s128-demo-key-B
+
+output_dir: results

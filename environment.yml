@@ -1,0 +1,13 @@
+name: aghc-s128
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24,<3
+  - scipy>=1.10,<2
+  - matplotlib>=3.7,<4
+  - pyyaml>=6.0,<7
+  - pytest>=7.0
+  - pip
+  - pip:
+      - -e .

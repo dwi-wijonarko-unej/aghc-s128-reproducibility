@@ -1,0 +1,43 @@
+# --- Original author artifacts (excluded from the public repository) -------
+collab/
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.python-version
+
+# --- Tooling caches ----------------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+coverage/
+.coverage
+htmlcov/
+
+# --- Experiment outputs (regenerated; keep only directory scaffolding) ------
+results/logs/*
+results/tables/*
+results/figures/*
+results/analysis/*
+results/example_outputs/*
+!results/logs/.gitkeep
+!results/tables/.gitkeep
+!results/figures/.gitkeep
+!results/analysis/.gitkeep
+!results/example_outputs/.gitkeep
+
+# --- External datasets (never commit; see data/README.md) --------------------
+data/external/*
+!data/external/.gitkeep
+
+# --- OS junk -------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*:Zone.Identifier

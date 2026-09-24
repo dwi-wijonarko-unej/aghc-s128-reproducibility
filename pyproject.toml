@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aghc-s128"
+version = "1.0.0"
+description = "Reproducibility implementation of AGHC-S128 (Adaptive Graph Hill Cipher with Shift-128 Residual Processing) — research prototype, not production cryptography"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "AGHC-S128 research team" },
+]
+keywords = ["reproducibility", "research", "hill-cipher", "chaos", "statistical-evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+notebooks = ["jupyter>=1.0", "ipykernel>=6.0"]
+
+[project.scripts]
+aghc-s128 = "aghc_s128.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/PLACEHOLDER/aghc-s128-reproducibility"
+Documentation = "https://github.com/PLACEHOLDER/aghc-s128-reproducibility/tree/main/docs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    # scipy emits this on constant inputs (baseline behavior; tests cover it)
+    "ignore:An input array is constant:UserWarning",
+]

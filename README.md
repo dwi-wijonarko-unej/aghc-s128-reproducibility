@@ -1,6 +1,7 @@
 # AGHC-S128 Reproducibility Package
 
 **Adaptive Graph Hill Cipher with Shift-128 Residual Processing (AGHC-S128)**
+[![DOI](https://zenodo.org/badge/1384403443.svg)](https://doi.org/10.5281/zenodo.22928979)
 — a clean, testable, reproducible re-implementation of the research cipher
 originally developed in a Google Colab notebook, prepared for GitHub release
 and Zenodo archiving.
@@ -160,19 +161,20 @@ until licensing/consent is verified; obtain them from the sources listed in
 
 ## Citation
 
-`[BUTUH INPUT PENOLIS — DOI & metadata]` This section and `CITATION.cff`
-will be updated with the paper reference and the Zenodo DOI once the
-repository is archived:
+Archived on Zenodo: [![DOI](https://zenodo.org/badge/1384403443.svg)](https://doi.org/10.5281/zenodo.22928979)
 
 ```bibtex
 @software{aghc_s128_reproducibility_2026,
   title  = {AGHC-S128 Reproducibility Package},
-  author = {AGHC-S128 research team},
+  author = {Wijonarko, Dwi},
   year   = {2026},
-  url    = {https://github.com/PLACEHOLDER/aghc-s128-reproducibility},
-  doi    = {10.5281/zenodo.PLACEHOLDER}
+  url    = {https://github.com/dwi-wijonarko-unej/aghc-s128-reproducibility},
+  doi    = {10.5281/zenodo.22928979}
 }
 ```
+
+`CITATION.cff` carries the same metadata for GitHub's "Cite this repository"
+feature.  The paper reference will be added once published.
 
 ## License
 

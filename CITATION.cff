@@ -5,12 +5,15 @@ message: >-
   your work, please cite both the original paper and this software artifact.
 type: software
 authors:
-  # [BUTUH INPUT PENULIS] Replace placeholder authors with the real author
-  # list (given/family names, ORCID, affiliation) before the public release.
-  - family-names: "Author"
-    given-names: "AGHC-S128 Research Team"
-    affiliation: "Placeholder"
-repository-code: "https://github.com/PLACEHOLDER/aghc-s128-reproducibility"
+  - family-names: "Wijonarko"
+    given-names: "Dwi"
+    email: "dwi-wijonarko@unej.ac.id"
+    affiliation: "Universitas Jember"
+repository-code: "https://github.com/dwi-wijonarko-unej/aghc-s128-reproducibility"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22928979"
+    description: "Zenodo archive (version 1.0.0)"
 abstract: >-
   Reproducibility implementation of the AGHC-S128 research cipher
   (Adaptive Graph Hill Cipher with Shift-128 Residual Processing).
